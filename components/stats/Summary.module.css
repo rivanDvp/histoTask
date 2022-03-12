@@ -1,0 +1,30 @@
+.div-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #4C3CE7;
+}
+
+.div-boundary{
+    width: auto;
+    border:  dashed;
+    border-radius: 0;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #3CE74C;
+    box-shadow: 10px 5px 5px black;
+}
+
+@media(max-width:600px){
+    .div-boundary{
+        width: 100%;
+        border:  solid;
+    }
+    
+
+}

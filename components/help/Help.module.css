@@ -1,0 +1,25 @@
+.div-container{
+    min-height: 75vh;
+    width: 80%;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    position: relative;
+    top: 0;
+    left:20%;
+    text-align: justify;
+}
+.title{
+    color: rgb(13,110,253)
+}
+.nav-bar{
+    position: fixed;
+  min-width:20%;
+  top: 6rem;
+  left: 0px;
+  width: 4rem;
+  height: 50vh;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  z-index: 10;
+  margin: 0;
+}

@@ -1,0 +1,21 @@
+.control-bar{
+  position: -webkit-sticky;
+  position: sticky;
+  top:10px;
+  border: dashed thin;
+  padding: 5px;
+  margin-bottom: 2rem;
+  background-color:rgba(159, 249, 231,0.9) ;
+  box-shadow: 3px 5px 5px black;
+   
+}
+.indicators{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". ."
+      ". .";
+}

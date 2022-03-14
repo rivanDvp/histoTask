@@ -1,5 +1,5 @@
 import style from "./Help.module.css"
-import tranlateHelpTopic from "../../auxiliarJS/tranlateHelpTopic"
+import translateHelpTopic from "../../auxiliarJS/tranlasteHelpTopic"
 import HelpNav from "./HelpNav"
 
 export default function Home(props) {
@@ -8,7 +8,7 @@ export default function Home(props) {
      <HelpNav/>
     <div className={style["div-container"]}>
            
-            <h1 className={style["title"]}>Ayuda: {tranlateHelpTopic[props.topic]}</h1>
+            <h1 className={style["title"]}>Ayuda: {translateHelpTopic[props.topic]}</h1>
             <p><b>histoTask</b> es una web app que tiene como principal objetivo el ser una herramienta que
                 facilite la elaboración de bitácoras de trabajo haciendo uso del siguiente conjunto de caracteriticas:                 
             </p>

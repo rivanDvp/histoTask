@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function HelpNav() {
     return (
         <nav className={style["nav-bar"]}>
-            <ul>
+            <ul className={style["ul-bar"]}>
 
                 <li>
                     <Link href='/help/home'>

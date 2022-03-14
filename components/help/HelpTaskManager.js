@@ -1,5 +1,5 @@
 import style from "./Help.module.css"
-import tranlateHelpTopic from "../../auxiliarJS/tranlateHelpTopic"
+import translateHelpTopic from "../../auxiliarJS/tranlasteHelpTopic"
 import HelpNav from "./HelpNav"
 import Image from "next/image"
 import Image1 from "./images/task_manager.svg"
@@ -9,7 +9,7 @@ export default function HelpTaskManager(props) {
      <HelpNav/>
     <div className={style["div-container"]}>
                    
-            <h1 className={style["title"]}>Ayuda: {tranlateHelpTopic[props.topic]}</h1>
+            <h1 className={style["title"]}>Ayuda: {translateHelpTopic[props.topic]}</h1>
 
             <Image src={Image1} />
             <p>El administrador de tareas tiene los siguientes elementos a destacar:</p>
